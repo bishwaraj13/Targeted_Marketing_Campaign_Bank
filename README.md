@@ -13,6 +13,7 @@ Marketing campaigns promote a service or product through different media, for cu
 Marketing has cost. Targeting right customers for the campaign would hugely benefit the campaign. In contrast, targeting wrong customers may not only be wrong investment, but also damage the brand value of the company.
 
 <img src = './images/term_deposit.png'/>
+
 ## Term Deposit
 ***
 A term deposit is a cash investment held at a financial institution. The money is invested for an agreed rate of interest over a fixed amount of time, or term. It is there for the pre-determined period which usually ranges from 1 month to 5 years and the interest rate is guaranteed not to change for that nominated period of time.  The money can only be withdrawn at the end of the period – or earlier with a penalty attached.
@@ -597,7 +598,7 @@ plt.show()
 ```
 
 
-![png](output_22_0.png)
+![png](output_23_0.png)
 
 
 
@@ -690,7 +691,7 @@ plt.show()
 ```
 
 
-![png](output_26_0.png)
+![png](output_27_0.png)
 
 
 
@@ -705,31 +706,31 @@ for col in quantitative:
 ```
 
 
-![png](output_27_0.png)
+![png](output_28_0.png)
 
 
 
-![png](output_27_1.png)
+![png](output_28_1.png)
 
 
 
-![png](output_27_2.png)
+![png](output_28_2.png)
 
 
 
-![png](output_27_3.png)
+![png](output_28_3.png)
 
 
 
-![png](output_27_4.png)
+![png](output_28_4.png)
 
 
 
-![png](output_27_5.png)
+![png](output_28_5.png)
 
 
 
-![png](output_27_6.png)
+![png](output_28_6.png)
 
 
 **Observations:**
@@ -900,39 +901,39 @@ for col in qualitative:
 ```
 
 
-![png](output_34_0.png)
+![png](output_35_0.png)
 
 
 
-![png](output_34_1.png)
+![png](output_35_1.png)
 
 
 
-![png](output_34_2.png)
+![png](output_35_2.png)
 
 
 
-![png](output_34_3.png)
+![png](output_35_3.png)
 
 
 
-![png](output_34_4.png)
+![png](output_35_4.png)
 
 
 
-![png](output_34_5.png)
+![png](output_35_5.png)
 
 
 
-![png](output_34_6.png)
+![png](output_35_6.png)
 
 
 
-![png](output_34_7.png)
+![png](output_35_7.png)
 
 
 
-![png](output_34_8.png)
+![png](output_35_8.png)
 
 
 ## Percentage of positive transactions month - wise
@@ -954,7 +955,7 @@ plt.show()
 ```
 
 
-![png](output_36_0.png)
+![png](output_37_0.png)
 
 
 ## Age versus occupation
@@ -975,7 +976,7 @@ plt.show()
 ```
 
 
-![png](output_38_0.png)
+![png](output_39_0.png)
 
 
 ## Age groups versus Term deposit subscription probability
@@ -1016,7 +1017,7 @@ plt.show()
 ```
 
 
-![png](output_41_0.png)
+![png](output_42_0.png)
 
 
 **Observations:**
@@ -1053,7 +1054,7 @@ g5 = sns.violinplot(data=df, x="marital", y="balance", hue="deposit",
 ```
 
 
-![png](output_44_0.png)
+![png](output_45_0.png)
 
 
 
@@ -1066,7 +1067,7 @@ plt.show()
 ```
 
 
-![png](output_45_0.png)
+![png](output_46_0.png)
 
 
 
@@ -1078,7 +1079,7 @@ plt.show()
 ```
 
 
-![png](output_46_0.png)
+![png](output_47_0.png)
 
 
 **Observations:**
@@ -1116,7 +1117,7 @@ plt.show()
 ```
 
 
-![png](output_51_0.png)
+![png](output_52_0.png)
 
 
 
@@ -1127,7 +1128,7 @@ plt.show()
 ```
 
 
-![png](output_52_0.png)
+![png](output_53_0.png)
 
 
 
@@ -1140,7 +1141,7 @@ plt.show()
 ```
 
 
-![png](output_53_0.png)
+![png](output_54_0.png)
 
 
 # Preprocessing
@@ -1676,10 +1677,8 @@ confusion_matrix(y_test, y_test_pred)
 
 
 ```python
-# Let's find the scores  for precision and recall.
 from sklearn.metrics import precision_score, recall_score
-# The model is 77% sure that the potential client will suscribe to a term deposit. 
-# The model is only retaining 60% of clients that agree to suscribe a term deposit.
+
 print('Precision Score: ', precision_score(y_test, y_test_pred))
 # The classifier only detects 60% of potential clients that will suscribe to a term deposit.
 print('Recall Score: ', recall_score(y_test, y_test_pred))
@@ -1766,7 +1765,7 @@ plt.show()
 ```
 
 
-![png](output_87_0.png)
+![png](output_88_0.png)
 
 
 ### ROC Curve
@@ -1806,7 +1805,7 @@ plt.show()
 ```
 
 
-![png](output_90_0.png)
+![png](output_91_0.png)
 
 
 
@@ -1846,7 +1845,7 @@ plt.show()
 ```
 
 
-![png](output_92_0.png)
+![png](output_93_0.png)
 
 
 # Feature Importance
@@ -1936,13 +1935,13 @@ plt.show()
 
 
 
-![png](output_95_1.png)
+![png](output_96_1.png)
 
 
 # Prescriptive Analytics
 ***
 <img src = './images/prescriptive_analytics.png'/>
-**Following are the key takeaways that would be immensely beneficial for any further market campaigning of Term Deposit:**
+### Following are the key takeaways that would be immensely beneficial for any further market campaigning of Term Deposit:
 - Call duration is the defining factor for client's subscription. A proper questionnaire should be developed to make effective use of the call time.
 - It is seen that the likelihood of client subscribing after 3 calls is as low as 34%. So, the client should not be bothered any more after 3 calls.
 - The balance of the individual decreases on divorce. The reason is supposedly the split up of properties after divorce.

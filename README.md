@@ -1940,8 +1940,11 @@ plt.show()
 
 # Prescriptive Analytics
 ***
+
 <img src = './images/prescriptive_analytics.png'/>
+
 ### Following are the key takeaways that would be immensely beneficial for any further market campaigning of Term Deposit:
+***
 - Call duration is the defining factor for client's subscription. A proper questionnaire should be developed to make effective use of the call time.
 - It is seen that the likelihood of client subscribing after 3 calls is as low as 34%. So, the client should not be bothered any more after 3 calls.
 - The balance of the individual decreases on divorce. The reason is supposedly the split up of properties after divorce.
